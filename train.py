@@ -8,7 +8,7 @@ from tensorflow.keras.optimizers import RMSprop
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 import matplotlib.pyplot as plt
 
-DATA_DIR = 'fire_detection/fire_data'
+DATA_DIR = 'FireDetection/fire_data'
 NUM_CLASSES = 2
 BATCH_SIZE = 10
 IMG_SIZE = 32

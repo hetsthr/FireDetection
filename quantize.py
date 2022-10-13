@@ -1,7 +1,7 @@
 import os
 from keras.models import load_model
 import tensorflow as tf
-data_dir = 'fire_detection/fire_data'
+data_dir = 'FireDetection/fire_data'
 img_dir = data_dir + '/test/'
 CHANNELS = 1
 IMG_SIZE = 32
